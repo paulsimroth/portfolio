@@ -10,3 +10,4 @@ This page is an ongoing project and I will also use this page to try out new thi
 - Javascript (Next.js)
 - [Next.js](https://nextjs.org/) (Frontend Framework)
 - [Tailwindcss](https://tailwindcss.com/) (Styling)
+- [Framer Motion](https://www.framer.com/motion/) (Animations)
