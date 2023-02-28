@@ -70,6 +70,15 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div>
+        <p>Color schemes that I will use</p>
+        <div className='bg-[#2E3A59]'>Nav</div>
+        <div className='bg-[#F5F5F5]'>Body</div>
+        <div className='bg-[#34495E]'>Text</div>
+        <div className='bg-[#E5E5E5]'>Borders</div>
+        <div className='bg-[#F8D1CC]'>CTA</div>
+        <div className='bg-[#18BC9C]'>Accent</div>
+      </div>
     </main>
   )
 }
