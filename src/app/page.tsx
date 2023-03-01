@@ -1,16 +1,12 @@
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import styles from './page.module.css';
-import Hero from 'sections/Hero';
-import Navbar from 'sections/Navbar';
-import Footer from 'sections/Footer';
-import Info from 'sections/Info';
-import Projects from 'sections/Projects';
-import Education from 'sections/Education';
-import Contact from 'sections/Contact';
-
-
-const inter = Inter({ subsets: ['latin'] })
+import Hero from 'src/sections/Hero';
+import Navbar from 'src/sections/Navbar';
+import Footer from 'src/sections/Footer';
+import Info from 'src/sections/Info';
+import Projects from 'src/sections/Projects';
+import Education from 'src/sections/Education';
+import Contact from 'src/sections/Contact';
 
 export default function Home() {    
   return (
