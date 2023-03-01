@@ -1,7 +1,7 @@
 
 function Projects() {
   return (
-    <section id='projects'>
+    <section className='p-12 relative' id='projects'>
       <h1>My Projects</h1>
     </section>
   )

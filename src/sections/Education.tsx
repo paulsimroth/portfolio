@@ -1,7 +1,7 @@
 
 function Education() {
   return (
-    <section>
+    <section className='p-12 relative' id='education'>
       <h1>My Education</h1>
     </section>
   )

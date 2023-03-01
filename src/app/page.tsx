@@ -10,16 +10,8 @@ import Contact from 'src/sections/Contact';
 
 export default function Home() {    
   return (
-    <main className='overflow-hidden'>
-      <div>
-        <p>Color schemes</p>
-        <div className='bg-[#2E3A59]'>Nav</div>
-        <div className='bg-[#F5F5F5]'>Body</div>
-        <div className='bg-[#34495E]'>Text</div>
-        <div className='bg-[#E5E5E5]'>Borders</div>
-        <div className='bg-[#F8D1CC]'>CTA</div>
-        <div className='bg-[#18BC9C]'>Accent</div>
-      </div>
+    <main className='bg-[#34495E] overflow-hidden'>
+
       <Navbar />
       <Hero />
 
@@ -29,7 +21,16 @@ export default function Home() {
       <Education />
       <Contact />
 
-      <Footer />
+      <Footer />      
+      <div>
+        <p>Color schemes</p>
+        <div className='bg-[#2E3A59]'>Nav</div>
+        <div className='bg-[#F5F5F5]'>Body</div>
+        <div className='bg-[#34495E]'>Text</div>
+        <div className='bg-[#E5E5E5]'>Borders</div>
+        <div className='bg-[#F8D1CC]'>CTA</div>
+        <div className='bg-[#18BC9C]'>Accent</div>
+      </div>
     </main>
   )
 }
