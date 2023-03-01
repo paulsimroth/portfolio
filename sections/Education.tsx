@@ -1,7 +1,9 @@
 
 function Education() {
   return (
-    <div>Education</div>
+    <section>
+      <h1>My Education</h1>
+    </section>
   )
 };
 

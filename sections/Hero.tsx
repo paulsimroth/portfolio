@@ -1,7 +1,9 @@
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <section id='hero'>
+      <h1>About</h1>
+    </section>
   )
 };
 

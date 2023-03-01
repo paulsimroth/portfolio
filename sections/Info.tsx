@@ -1,7 +1,9 @@
 
 function Info() {
   return (
-    <div>Info</div>
+    <section id='info'>
+      <h1>Info</h1>
+    </section>
   )
 };
 
