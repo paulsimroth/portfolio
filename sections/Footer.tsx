@@ -10,13 +10,13 @@ function Footer() {
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.paddings} py-8 relative`}
+    className='py-8 relative bg-[#2E3A59]'
   >
     <div className="footer-gradient" />
-    <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+    <div className='mx-auto flex flex-col gap-8'>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#F8D1CC] rounded-[32px] gap-[12px]">
-          <span className="font-normal text-[16px] text-white">|CONTACT ME!</span>
+          <span className="font-normal text-[16px] text-[#18BC9C]">|CONTACT ME!</span>
         </button>
       </div>
 

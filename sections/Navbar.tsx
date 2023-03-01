@@ -10,10 +10,10 @@ function Navbar() {
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative bg-[#2E3A59] text-[#18BC9C]`}
+    className='py-8 relative bg-[#2E3A59]'
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div className='mx-auto flex justify-between gap-8'>
       <img
         src="/logo.svg"
         alt="logo"
@@ -23,8 +23,8 @@ function Navbar() {
       Paul´s Portfolio
       </h2>
       <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#F8D1CC] rounded-[32px] gap-[12px]">
-          <span className="font-normal text-[16px] text-white">|CONTACT ME!</span>
-        </button>
+        <span className="font-normal text-[16px] text-[#18BC9C]">|CONTACT ME!</span>
+      </button>
     </div>
   </motion.nav>
   )
