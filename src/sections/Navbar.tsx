@@ -27,7 +27,7 @@ function Navbar() {
           Paul´s Portfolio
         </h2>
       </Link>
-      <a href="#contact">
+      <a href="/#contact">
         <button type="button" className="flex items-center h-fit border-2 border-[#E5E5E5] py-4 px-6 bg-[#18BC9C] rounded-[32px] gap-[12px] hover:scale-110">
           <span className="font-bold text-[12px] md:text-[16px] text-[#F8D1CC]">|CONTACT ME!</span>
         </button>

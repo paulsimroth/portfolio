@@ -9,7 +9,7 @@ function Info() {
         exploring the world of blockchain and it´s future in our everyday lives.
       </p>
       <p>
-        MY core skills are  Smart Contracts  as well as DApps and Websites, just like this one, using JavaScript, HTML, CSS or mostly ReactJs and NextJs. 
+        MY core skills are  Smart Contracts  as well as DApps and Websites, just like this one, using JavaScript, HTML, CSS or mostly React.js and Next.js. 
         Besides that I am familiar with other tools, a list of which you can find on this page.
         I am always eager to learn, expand my skillset and keep up with technology.
       </p>

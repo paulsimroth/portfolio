@@ -16,8 +16,11 @@ const styles = {
     sections: 'p-12 relative',
   
     // hero section
-    heroHeading:
-        'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+    hero1Heading:
+        'font-extrabold my-8 md:my-24 text-[44px] sm:text-[60px] md:text-[100px] lg:text-[144px] lg:leading-[159px] md:leading-[115px] sm:leading-[75px] leading-[65px] uppercase text-[#18BC9C]',
+
+    hero2Heading:
+        'font-extrabold my-8 text-[40px] md:text-[65px] lg:text-[90px] leading-[50px] md:leading-[70px] lg:leading-[100px] text-[#18BC9C]',
   };
   
   export default styles;
