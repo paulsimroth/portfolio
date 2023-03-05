@@ -13,7 +13,6 @@ function Footer() {
     whileInView="show"
     className='p-12 relative bg-[#2E3A59]'
     >
-    <div className="footer-gradient -z-10" />
     <div className='mx-auto flex flex-col gap-8'>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <a href="/#contact">
@@ -22,7 +21,6 @@ function Footer() {
           </button>
         </a>
       </div>
-
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">

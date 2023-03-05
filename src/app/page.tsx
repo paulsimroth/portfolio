@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className='bg-[#34495E] overflow-hidden'>
       <div className='relative'>
-      
+    
         <Navbar />
         <div className="absolute w-[50%] h-[30%] gradient-01" />
         <Hero />
