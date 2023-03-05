@@ -12,8 +12,8 @@ function Footer() {
     initial="hidden"
     whileInView="show"
     className='p-12 relative bg-[#2E3A59]'
-  >
-    <div className="footer-gradient" />
+    >
+    <div className="footer-gradient -z-10" />
     <div className='mx-auto flex flex-col gap-8'>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <a href="/#contact">
@@ -26,19 +26,10 @@ function Footer() {
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-[#18BC9C]">Paul Simroth</h4>
-          <p className="font-normal text-[14px] text-[#18BC9C] opacity-50">Copyright © 2023.</p>
-          <div className="flex gap-4">
-            <Link href="/imprint"><p className='p-2 cursor-pointer font-bold text-[16px] text-[#18BC9C] hover:scale-110'>Imprint</p></Link>
-            <Link href="/data"><p className='p-2 cursor-pointer font-bold text-[16px] text-[#18BC9C] hover:scale-110'>Data Policy</p></Link>
-          </div>
-          <div className="flex gap-4">
-            <Link href="https://www.linkedin.com/in/paul-simroth/" target="_blank">
-              <p className='p-2 cursor-pointer font-bold text-[16px] text-[#18BC9C] hover:scale-110'>LinkedIn</p>
-            </Link>
-            <Link href="https://github.com/PaulSimroth" target="_blank">
-              <p className='p-2 cursor-pointer font-bold text-[16px] text-[#18BC9C] hover:scale-110'>GitHub</p>
-            </Link>
+          <p className="font-normal text-[14px] text-[#18BC9C] opacity-50">Copyright © 2023, Paul Simroth</p>
+          <div className="md:flex items-center justify-around font-bold space-x-6">
+            <Link href="/imprint" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Imprint</Link> 
+            <Link href="/data" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Data Policy</Link>
           </div>
         </div>
       </div>
