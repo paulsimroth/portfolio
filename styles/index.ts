@@ -13,7 +13,11 @@ const styles = {
     flexEnd: 'flex justify-end',
     navPadding: 'pt-[98px]',
 
-    sections: 'p-12 relative',
+    sections: 'p-12',
+
+    sectionHeading: 'px-6 font-extrabold my-8 text-[40px] md:text-[65px] lg:text-[90px] leading-[50px] md:leading-[70px] lg:leading-[100px] text-[#18BC9C]',
+
+    text: 'px-6 text-justify my-8 text-[20px] md:text-[23px] lg:text-[35px] leading-[45px]',
   
     // hero section
     hero1Heading:

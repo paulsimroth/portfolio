@@ -4,13 +4,13 @@ function Contact() {
   return (
     <section className={`${styles.sections}`} id='contact'>
       <div className=''>
-                <h1 className="font-extrabold my-8 text-[25px] md:text-[30px] lg:text-[45px] leading-[30px] text-[#18BC9C]">Contact Me!</h1>
-                <p>
+                <h1 className={styles.sectionHeading}>Contact Me!</h1>
+                <p className={styles.text}>
                     I am open to opportunities and projects in the blockchain space.
                     Also, if you have any other questions do not hesitate to contact me using the form below.
                     Let me know how we can work together!
                 </p>
-                <p>By clicking the send button you confirm that you have seen and accepted the Privacy Policy!</p>
+                <p className={styles.text}>By clicking the send button you confirm that you have seen and accepted the Privacy Policy!</p>
                 <div className=''>
                     <form>
                         <ul>
