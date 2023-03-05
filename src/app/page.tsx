@@ -14,7 +14,7 @@ export default function Home() {
       <div className='relative'>
     
         <Navbar />
-        <div className="absolute w-[50%] h-[30%] gradient-01" />
+        <div className="absolute w-full h-[200px] gradient-01 -z-3" />
         <Hero />
       </div>
       <div className='relative'>
@@ -24,10 +24,10 @@ export default function Home() {
       </div>
       <div className='relative'>
         <Contact />
-        <div className="footer-gradient" />
+        <div className="absolute w-full h-[500px] gradient-01 -z-3" />
         <Footer />  
       </div>
-      <div>
+{/*       <div>
         <p>Color schemes</p>
         <div className='bg-[#2E3A59]'>Nav</div>
         <div className='bg-[#F5F5F5]'>Body</div>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className='bg-[#E5E5E5]'>Borders</div>
         <div className='bg-[#F8D1CC]'>CTA</div>
         <div className='bg-[#18BC9C]'>Accent</div>
-      </div>
+      </div> */}
     </main>
   )
 }

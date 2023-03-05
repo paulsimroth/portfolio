@@ -11,7 +11,7 @@ function Navbar() {
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className='p-12 relative bg-[#2E3A59]'
+    className='p-12 relative bg-[#2E3A59] z-10'
     >
     <div className='mx-auto flex justify-between items-center gap-4'>
       <Link href="/" className='cursor-pointer'>

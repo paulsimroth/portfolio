@@ -2,7 +2,7 @@ import styles from 'styles';
 
 function Info() {
   return (
-    <section className={`${styles.sections}`} id='info'>
+    <section className={`${styles.sections}`} id='about'>
       <h1 className="font-extrabold my-8 text-[25px] md:text-[30px] lg:text-[45px] leading-[30px] text-[#18BC9C]">About me.</h1>
       <p>
         I am a passionate self taught blockchain developer from Austria, 

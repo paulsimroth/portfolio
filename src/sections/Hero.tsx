@@ -4,6 +4,7 @@ import Link from "next/link";
 function Hero() {
   return (
     <section className={`${styles.sections}`} id='hero'>
+      
       <h1 className='font-extrabold my-2 md:my-6 text-[44px] sm:text-[60px] md:text-[100px] lg:text-[130px] lg:leading-[159px] md:leading-[115px] sm:leading-[75px] leading-[65px] text-[#18BC9C]'>
         Hi, <br/> I´m Paul.
       </h1>
@@ -20,6 +21,7 @@ function Hero() {
           <img alt="github" src="github.svg" className='py-2 md:w-[50px] md:h-[50px] object-contain cursor-pointer hover:scale-110' />
         </Link>
       </div>
+
       <h2 className="font-extrabold md:my-12 text-[23px] md:text-[26px] lg:text-[45px] leading-[30px] text-[#18BC9C]">Smart Contracts, DApps and more...</h2>  
       <br/>
     </section>
