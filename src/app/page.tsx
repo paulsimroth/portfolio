@@ -19,6 +19,7 @@ export default function Home() {
       </div>
       <div className='relative'>
         <Info />
+        <div className="absolute gradient-03 -z-3" />
         <Projects />
         <Education />
       </div>

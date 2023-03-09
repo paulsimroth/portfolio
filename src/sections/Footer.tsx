@@ -11,7 +11,7 @@ function Footer() {
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className='p-12 relative bg-[#2E3A59]'
+    className='p-12 relative bg-[#2E3A59] z-10'
     >
 
     <div className='mx-auto flex flex-col gap-8'>
