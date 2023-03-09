@@ -4,7 +4,7 @@ import Navbar from 'src/sections/Navbar';
 
 export default function Home() {    
   return (
-    <main className='bg-[#2E3A59] overflow-hidden'>
+    <main className='overflow-hidden'>
       <Navbar />
       <div className='p-12 relative'>
             <div className='text-[#18BC9C]'>

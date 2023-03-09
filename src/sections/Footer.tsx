@@ -39,8 +39,8 @@ function Footer() {
           <p className="font-normal text-[14px] text-[#18BC9C] opacity-50">Copyright © 2023, Paul Simroth</p>
 
           <div className="md:flex items-center justify-around font-bold space-x-6">
-            <Link href="/imprint" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Imprint</Link> 
-            <Link href="/data" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Data Policy</Link>
+            <Link href="/imprint" className="text-[12px] lg:text-[20px] text-[#18BC9C] hover:scale-110">Imprint</Link> 
+            <Link href="/data" className="text-[12px] lg:text-[20px] text-[#18BC9C] hover:scale-110">Data Policy</Link>
           </div>
         </div>
       </div>

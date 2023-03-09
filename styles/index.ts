@@ -13,7 +13,7 @@ const styles = {
     flexEnd: 'flex justify-end',
     navPadding: 'pt-[98px]',
 
-    sections: 'p-12',
+    sections: 'w-full p-12',
 
     sectionHeading: 'px-6 font-extrabold my-8 text-[40px] md:text-[65px] lg:text-[90px] leading-[50px] md:leading-[70px] lg:leading-[100px] text-[#18BC9C]',
 
