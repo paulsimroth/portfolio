@@ -13,11 +13,13 @@ const styles = {
     flexEnd: 'flex justify-end',
     navPadding: 'pt-[98px]',
 
-    sections: 'w-full p-12',
+    sections: 'w-full p-12 h-screen',
 
     sectionHeading: 'px-6 font-extrabold my-8 text-[40px] md:text-[65px] lg:text-[90px] leading-[50px] md:leading-[70px] lg:leading-[100px] text-[#18BC9C]',
 
-    text: 'px-6 text-justify my-8 text-[20px] md:text-[23px] lg:text-[35px] leading-[45px]',
+    text: 'px-6 text-justify my-4 text-[20px] md:text-[23px] lg:text-[35px] leading-[45px]',
+
+    button: 'flex items-center h-fit border-2 border-[#E5E5E5] py-4 px-6 bg-[#18BC9C] rounded-[32px] gap-[12px] hover:scale-110',
   
     // hero section
     hero1Heading:

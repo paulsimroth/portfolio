@@ -21,16 +21,18 @@ function Navbar() {
             className="w-[25px] h-[25px] md:w-[60px] md:h-[60px] lg:w-[100px] lg:h-[100px] object-contain"
           />
         </Link>
+
         <div className="md:flex items-center justify-around font-bold space-x-12 z-2">
           <a href="/#about" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">About me</a>
           <a href="/#projects" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Projects</a>
           <a href="/#education" className="text-[12px] md:text-[20px] lg:text-[30px] text-[#18BC9C] hover:scale-110">Education</a>
           <a href="/#contact">
-            <button type="button" className="flex items-center h-fit border-2 border-[#E5E5E5] py-4 px-6 bg-[#18BC9C] rounded-[32px] gap-[12px] hover:scale-110">
+            <button type="button" className={styles.button}>
               <span className="font-bold text-[12px] md:text-[16px] text-[#F8D1CC]">|CONTACT ME!</span>
             </button>
           </a>
         </div>
+
       </div>
     </motion.nav>
   )

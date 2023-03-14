@@ -17,14 +17,16 @@ export default function Home() {
         <Hero />
       </div>
       <div className='relative'>
+
         <Info />
         <div className="absolute gradient-03 -z-3" />
         <Projects />
         <Education />
+        
+        <Contact />
+        <div className="absolute w-full h-[500px] gradient-02 -z-3" />
       </div>
       <div className='relative'>
-        <Contact />
-        <div className="absolute w-full h-[500px] gradient-01 -z-3" />
         <Footer />
       </div>
       {/*       <div>
